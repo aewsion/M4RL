@@ -178,8 +178,7 @@ void Diffusibles::diffusion(CellGrids &cg, double tstep) {
                         }
                         if(time >= 28*24){
                             IGF1R_I[i][j] = IGF1R_I[i][j] + 0.8 * (1.0 - IGF1R_I[i][j]);
-                            //EGFR_I[i][j] = EGFR_I[i][j] + 0.8 * (1.0 - EGFR_I[i][j]); // if necessary
-                        
+                        }
                         // 'CSF1R_I only' treatment    
                         /*
                          *CSF1R_I[i][j] = CSF1R_I[i][j] + 0.8 * (0.7 - CSF1R_I[i][j]);
@@ -199,7 +198,8 @@ void Diffusibles::diffusion(CellGrids &cg, double tstep) {
                          *   IGF1R_I[i][j] = IGF1R_I[i][j] + 0.8 * (1.0 - IGF1R_I[i][j]);
                          *}
                          */  
-                        }
+                        
+                        //EGFR_I[i][j] = EGFR_I[i][j] + 0.8 * (1.0 - EGFR_I[i][j]); // if necessary
                     }      
                 }
             }
