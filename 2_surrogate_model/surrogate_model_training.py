@@ -1173,7 +1173,7 @@ if __name__ == '__main__':
         )
         ax.set_title('$p(t,C)$', fontsize = 20) # font size doubled
         ax.tick_params(labelsize=15)
-        save_path = f'PINN_test/Exact_M1_{i}.pdf'
+        save_path = f'{figure_save_path}/Exact_M1_{i}.pdf'
         plt.savefig(save_path, format='pdf')
         
         # plot Pred_M1  
@@ -1195,7 +1195,7 @@ if __name__ == '__main__':
 
         ax.set_title('$p(t,C)$', fontsize = 20) # font size doubled
         ax.tick_params(labelsize=15)
-        save_path = f'PINN_test/Pred_M1_{i}.pdf'
+        save_path = f'{figure_save_path}/Pred_M1_{i}.pdf'
         plt.savefig(save_path, format='pdf')
 
     
@@ -1303,7 +1303,7 @@ if __name__ == '__main__':
                     ax.get_xticklabels() + ax.get_yticklabels()):
             item.set_fontsize(15)
 
-        save_path = f'PINN_test/Pred_M1_slice_{i}.pdf'
+        save_path = f'{figure_save_path}/Pred_M1_slice_{i}.pdf'
         plt.savefig(save_path, format='pdf')        
         '''
         
