@@ -476,7 +476,6 @@ class PhysicsInformedNN():
 
     # LBFGS loss function for dnn_TC (and dnn_M1 if necessary)
     def loss_func(self):
-    
         loss_LBFGS = torch.zeros(self.train_data_num) 
         self.optimizer_LBFGS.zero_grad()
         
