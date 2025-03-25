@@ -151,7 +151,7 @@ class PhysicsInformedNN():
         self.dnn_fTC = DNN(CC_layers).to(device)
         # load trained parameters
         #para_fTC = torch.load('surrogate_model/dnn_fTC_model.pth')      
-        #self.dnn_fCC.load_state_dict(para_fTC, strict=False)
+        #self.dnn_fTC.load_state_dict(para_fTC, strict=False)
 
         # DNN for SDE of M1 macrophage density 
         self.dnn_fM1 = DNN(CC_layers).to(device)
