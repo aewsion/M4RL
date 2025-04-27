@@ -1688,7 +1688,8 @@ if __name__ == '__main__':
 
 # REFERENCE
 
-# A, M.R., P.P. B, and G.E.K.J.J.o.C.P. A, Physics-informed neural networks: A deep learning 
-# framework for solving forward and inverse problems involving nonlinear partial differential 
-# equations. Journal of Computational Physics, 2019. 378: p. 686-707.
+# M. Raissi, P.Perdikaris, G.E.Ksrniadakis, Physics-informed neural networks: 
+# A deep learning framework for solving forward and inverse problems involving 
+# nonlinear partial differential equations. Journal of Computational Physics 
+# 378, 686-707 (2019).
 
