@@ -172,7 +172,6 @@ Recs_expr_list <- lapply(Recs_expr_list, toupper)
 save(ICGs_list,Ligs_expr_list,Recs_expr_list,
      file = paste0(my_working_dir, "/seurat_output.rda"))
 
-
 ## Reference
 ## L. Yan, J. Cheng, Q. Nie, X. Sun, Dissecting multilayer cell-cell communications 
 ## with signaling feedback loops from spatial transcriptomics data. 
