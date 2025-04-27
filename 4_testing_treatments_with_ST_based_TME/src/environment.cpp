@@ -1512,4 +1512,9 @@ void Environment::simulate(double days){
     D. Delev, O. Schnell, D. H. Heiland, Spatially resolved multi-omics deciphers 
     bidirectional tumor-host interdependence in glioblastoma. Cancer Cell 40, 
     639-655.e613 (2022).
+
+    J. Kueckelhaus, S. Frerich, J. Kada-Benotmane, C. Koupourtidou, J. Ninkovic, 
+    M. Dichgans, J. Beck, O. Schnell, D. H. Heiland, Inferring histology-associated 
+    gene expression gradients in spatial transcriptomic studies. Nature Communications 
+    15, 7280 (2024).
  */
